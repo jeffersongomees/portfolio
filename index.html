@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/keyframes.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <div class="scroll-up-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5511952733421&text=Ol%C3%A1,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank"><i class="fa fa-whatsapp"></i></a>
+    </div>
+
+    <!--menu início-->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfó<span>lio.</span></a></div>
+            <ul class="menu">
+                <li id="menu-1" class="menu-item"><a id="close-menu" class="menu-link" href="#home">Início</a></li>
+                <li id="menu-2" class="menu-item"><a id="close-menu" class="menu-link" href="#about">Sobre</a></li>
+                <li id="menu-3" class="menu-item"><a id="close-menu" class="menu-link" href="#skills">Habilidades</a></li>
+                <li id="menu-4" class="menu-item"><a id="close-menu" class="menu-link" href="#works">Projetos</a></li>
+                <li id="menu-5" class="menu-item"><a id="close-menu" class="menu-link" href="#contact">Contato</a></li>
+            </ul>
+            <div class="social-media">
+                <a id="social-1" href="https://github.com/jeffersongomees" target="_blank"><i class="fa fa-github"></i></a>
+                <a id="social-2" href="https://www.linkedin.com/in/jeffersongomess/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+            </div>
+            <div id="close-menu" class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            <!--<span>Fechar</span>-->
+            </div>
+        </div>
+    </nav>
+
+    <!--home início-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="banner">
+                <img src="media/banner.png" alt="">
+            </div>
+            <div class="home-content">
+                <div class="text-1">Olá, meu nome é</div>
+                <div class="text-2">Jefferson Gomes</div>
+                <div class="text-3">E eu sou <span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
+
+    <!--sobre início-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="column left" data-anime="left">
+                    <img src="media/profile-1.png" alt="foto de Jefferson Gomes">
+                </div>
+                <div class="column right" data-anime="up">
+                    <div class="text">Eu sou o Jefferson e eu sou <span class="typing-2"></span></div>
+                    <p>Sou Natural da Paraíba-PB e atualmente estou cursando Análise e Desenvolvimento de Sistemas pela Universidade Anhembi Morumbi (UAM), em São Paulo/SP. Após conclusão do Ensino Médio em 2014 ingressei na faculdade de Ciências da Computação no ano seguinte, porém naquele momento não me encontrei no curso e não conclui. Após alguns anos sem saber direito o que fazer, fomos surpreendidos com a Pandemia do COVID-19. Felizmente tudo esta se encaixando novamente e conheci a área de Análise de Dados através de um grande amigo que atua na área. Desde então estou estudando Power BI, Python, Excel, Banco de Dados e SQL, além da faculdade.</p>
+                    <a href="media/CV_JEFFERSON.pdf" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--habilidades início-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Habilidades</h2>
+            <div class="skills-content">
+                
+                <div class="card" data-anime="left">
+                    <div class="box">
+                        <i class="ms-Icon ms-Icon--PowerBILogo"></i>
+                        <h3>PowerBI</h3>
+                        <p>ETL, Modelagem (Star Schema e Snow Flake), Fórmulas Dax, Dashboards (Pivot Table, KPIs, Gráficos)</p>
+                    </div>
+                </div>
+                
+                <div class="card" data-anime="right">
+                    <div class="box">
+                        <i class="ms-Icon ms-Icon--ExcelLogo"></i>
+                        <h3>Excel</h3>
+                        <p>Análises Comparativas, KPIs, Slicers e Tabela, Gráficos e Dashboards.</p>
+                    </div>
+                </div>
+                
+                <div class="card" data-anime="left">
+                    <div class="box">
+                        <i class="fa fa-mysql"></i>
+                        <h3>MySQL</h3>
+                        <p>Criar, alterar e deletar (DataBases e Tables), Tabelas, Procedures, Views e Consulta.</p>
+                    </div>
+                </div>
+                
+                <div class="card" data-anime="right">
+                    <div class="box">
+                        <i class="fa fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Fundamentos do Python e estudando módulos voltados a Análise de Dados (Pandas, Numpy).</p>
+                    </div>
+                </div>
+                
+                <div class="imgcentral">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--projetos início-->
+    <section class="works" id="works">
+        <div class="max-width">
+            <h2 class="title">Projetos</h2>
+            <div class="works-content">
+
+                <h3 class="subtitle">últimos</h3>
+                <ul class="last owl-carousel" data-anime="up">
+                    <li class="card">
+                        <div class="box">
+                            <img src="media/works/work.jpg" alt="painel">
+                            <div class="info-card">
+                                <h3>Titulo</h3>
+                                <P>Descrição</P>
+                                <a href="projeto">
+                                    <span>Saiba mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="box">
+                            <img src="media/works/work.jpg" alt="painel">
+                            <div class="info-card">
+                                <h3>Titulo</h3>
+                                <P>Descrição</P>
+                                <a href="projeto">
+                                    <span>Saiba mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                
+
+    <!--contato início-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+                <div class="column left" data-anime="left">
+                    <div class="text">Entre em contato</div>
+                    <p>As informações aqui contidas te interessou? Por favor entre em contato para mais informações e atualizações.</p>  
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Nome</div>
+                                <div class="sub-title">Jefferson Gomes</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Endereço</div>
+                                <div class="sub-title">São Paulo/SP - Brasil</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">jefferson2901@hotmail.com</div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="column right" data-anime="up">
+                    <div class="text">Mensagem</div>
+                    <form action="https://formsubmit.co/jefferson2901@hotmail.com" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" name="name" placeholder="Nome" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="_subject" placeholder="Assunto" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" name="message" placeholder="Escreva sua mensagem..." required></textarea>
+                        </div>
+                        <div class="button">
+                                <button type="submit" onclick="message()">Enviar mensagem</button>
+                        </div>
+                        <div class="thanks">
+                            <input type="hidden" name="_next" value="https://jeffersongomees.github.io/portfolio/thanks.html">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--rodapé início-->
+    <footer>
+        <span>Criado por <a href="https://github.com/1caroMartins" target="_blank">Icaro Martins</a> | <span class="far fa-copyright"></span> 2023 Todos os direitos reservados.</span>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
