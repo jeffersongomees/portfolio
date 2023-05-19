@@ -1,6 +1,6 @@
 # Portfolio
 
-Olá, este é meu portfolio 😁<div><br/>
+Olá, este é meu portfolio 😁<br/>
 Acesse a página: https://jeffersongomees.github.io/portfolio/
 
 
