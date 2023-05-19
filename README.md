@@ -1,7 +1,7 @@
 # Portfolio
 
 Olá, este é meu portfolio 😁<br/>
-Acesse a página: https://jeffersongomees.github.io/portfolio/
-
-
-Fiz apenas algumas alterações a partir do codigo do Icaro Martins: https://github.com/1caroMartins
+Acesse através da página: https://jeffersongomees.github.io/portfolio/
+##
+Todos créditos ao codador/criador desta página, Icaro Martins: https://github.com/1caroMartins .<br/>
+Fiz apenas alterações nos dados
