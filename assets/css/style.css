@@ -814,7 +814,7 @@ section .title::after{
     width: 230px;
 }
 .objective .title::after{
-    content: "objetivos e fórmulas";
+    content: "objetivos";
     background: #e9e9e9;
 }
 .analysis .title::before{
