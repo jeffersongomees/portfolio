@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>Projeto 4</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/keyframes.css">
+</head>
+<body>
+    <div class="back">
+        <a href="index.html"><i class="fa fa-arrow-left"></i></a>
+    </div>
+    
+    <!-- relatório -->
+    <section class="report" id="report">
+        <div class="max-width">
+            <h2 class="title">Relatório</h2>
+            <div class="report-content">
+                <div class="column center">
+                    
+                    <div class="box">
+                        <iframe title="DASHBOARD do RH" width="800" height="510" src="https://app.powerbi.com/view?r=eyJrIjoiNTc1ZmFmMmItNGU0MS00YWQ3LTg3OGMtZTk2NjhkYmY3ZDBiIiwidCI6IjcyYzJlZjdkLThlYzYtNGNhYi1iMDlkLTJhMmM5OTk5MjU1NyJ9" frameborder="0" allowFullScreen="true"></iframe>
+                    </div>
+                    <br>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNTc1ZmFmMmItNGU0MS00YWQ3LTg3OGMtZTk2NjhkYmY3ZDBiIiwidCI6IjcyYzJlZjdkLThlYzYtNGNhYi1iMDlkLTJhMmM5OTk5MjU1NyJ9"><p>Link do Relatório</p></a>
+                    <br>
+                    <p class="desc">Este relatório foi feito totalmente com recursos nativos do Power BI utilizando Power Query, Gráficos, Medidas, Mapas, Cartões e etc. Se trata de uma base de dados fictícia para fins acadêmicos e é o meu primeiro Dashboard. O layout foi feito através do Power Point.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- objetivo -->
+    <section class="objective" id="objective">
+        <div class="max-width">
+            <h2 class="title">Requisitos</h2>
+            <div class="objective-content">
+
+                <div class="column center">
+                    <div class="text">O que foi pedido</div>
+                    <ul>
+                        <p>Página única</p>
+                        <li>- Qtd. Total de Contratações (2010 á 2018);</li>
+                        <li>- Qtd. Total de gastos com Salário ;</li>
+                        <li>- Qtd. de Funcionários ainda Ativos na Empresa;</li>
+                        <li>- Qtd. de Funcionários Desligados da Empresa;</li>
+                        <li>- Idade Atual do Funcionário;</li>
+                        <li>- GRAFICOS ONDE PODE SER FILTRADO: GENERO, QTD FUNC. ATIVOS POR CADA AREA, QTD DE CONTRATAÇÕES POR ANO E POR SEDE DA EMPRESA (MAPA).</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ETL e Modelagem -->
+    <section class="modeling" id="modeling">
+        <div class="max-width">
+            <h2 class="title">ETL e Modelagem</h2>
+            <div class="modeling-content">
+
+                <div class="column left">
+                    <div class="text">Relacionamento entre as tabelas</div>
+                    <p>O processo de <span>ETL</span> deste projeto (acadêmico) foi feito totalmente no <span>Power Query</span>, ou seja, extração, limpeza e transformação.</p>
+                    <p>- Soma de Gasto Salarial Total por Funcionário</p>
+                    <p>- Extração apenas da “Cidade” da Coluna endereço (Foi apagada após a Extração)</p>
+                    <p>- Cálculo de Idade atual a partir de sua data de nascimento</p>
+                    <p>- Status do funcionário (Ativo/Desligado)</p>
+                    <p>- Junção de Nome e Sobrenome do Funcionário</p>
+                    <p>- Transformação do gênero. (Exemplo: De “M” para “Masculino”)</p>
+                    <p>- Medidas para Cálculos (Qtd. Total Func. | Total Gasto Salarial | Media Salarial | Func. Ativos e etc)</p>
+                    <p>Se trata apenas de uma <span>tabela fato</span>.(Figura ao Lado)</p>
+                    <br>
+                </div>
+
+                <div class="column right4">
+                    <img src="https://uploaddeimagens.com.br/imagens/9v4489Y" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--rodapé início-->
+    <footer>
+        <span><a href="https://github.com/jeffersongomees" target="_blank">Jefferson Gomes</a> | <span class="far fa-copyright"></span> 2023 Todos os direitos reservados.</span>
+    </footer>
+
+</body>
+</html>
